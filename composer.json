@@ -1,0 +1,21 @@
+{
+    "name": "lan1/base45",
+    "description": "Base45 decoder/encoder for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LAN1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felix Kurth",
+            "email": "f.kurth@lan1.de",
+            "homepage": "https://www.lan1.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0"
+    }
+}
