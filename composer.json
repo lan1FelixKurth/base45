@@ -3,6 +3,8 @@
     "description": "Base45 decoder/encoder for PHP",
     "type": "library",
     "minimum-stability": "stable",
+    "keywords": ["decoder", "encoder"],
+    "homepage": "https://github.com/lan1FelixKurth/base45",
     "license": "MIT",
     "authors": [
         {
@@ -11,20 +13,14 @@
             "homepage": "https://www.lan1.de"
         }
     ],
-    "require": {
-        "php": "^7.0 || ^8.0"
-    },
     "autoload": {
         "psr-4": {
-            "LAN1\\": "src"
+            "LAN1\\": "src/"
         }
-    },
-    "require-dev": {
-        "php": "^7.0 || ^8.0"
     },
     "autoload-dev": {
         "psr-4": {
-            "LAN1\\": "tests"
+            "LAN1\\": "tests/"
         }
     }
 }
